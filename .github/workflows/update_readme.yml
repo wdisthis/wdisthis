@@ -1,0 +1,29 @@
+name: Auto Refresh Profile Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch: 
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Timestamp
+        run: |
+          sed -i '/Last Update:/d' README.md
+          echo "" >> README.md
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "docs: automated profile stats refresh [skip ci]" || echo "No changes to commit"
+          git push

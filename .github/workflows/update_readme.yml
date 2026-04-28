@@ -1,29 +1,26 @@
-name: Auto Refresh Profile Stats
+name: Refresh README Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch: 
+    - cron: "0 */6 * * *"  # tiap 6 jam
+  workflow_dispatch:       # bisa dijalankan manual juga
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Update Timestamp
+      - name: Update README (cache bust)
         run: |
-          sed -i '/Last Update:/d' README.md
-          echo "" >> README.md
+          date > .timestamp
 
-      - name: Commit and Push
+      - name: Commit changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "docs: automated profile stats refresh [skip ci]" || echo "No changes to commit"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .timestamp
+          git commit -m "auto: refresh stats" || echo "No changes to commit"
           git push

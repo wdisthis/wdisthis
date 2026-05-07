@@ -25,6 +25,9 @@
 </div>
 
 <br><br>
-<img src="/img/1.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
-
+<p align="center">
+  <picture>
+     <img src="/img/1.png">
+  </picture>
+</p>

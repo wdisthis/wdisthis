@@ -23,3 +23,8 @@
   <br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=wdisthis&bg_color=1a1b27&color=81ffea&line=fe428e&point=81ffea&area=true&hide_border=true&v=1714890000" width="100%"/>
 </div>
+
+<br><br>
+<img src="/img/1.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+
+

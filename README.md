@@ -20,7 +20,7 @@
 
 <h2>Tech Stack & Interests</h2>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=python,r,javascript,flask,pytorch,vscode,linux,kali,pandas,jupyter&perline=5" width="500"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,r,javascript,flask,pytorch,vscode,linux,kali,pandas,jupyter&perline=5" width="500px"/>
 
 <br>
 

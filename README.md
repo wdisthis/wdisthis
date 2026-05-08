@@ -14,11 +14,23 @@
   <table>
     <tr>
       <td>
-        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=wdisthis&layout=compact&theme=radical&border_radius=10&langs_count=8&cache_seconds=60&v=1714890000" width="470px"/>
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=wdisthis&layout=compact&theme=radical&border_radius=10&langs_count=8&cache_seconds=60&v=1714890000" width="500px"/>
       </td>
-      <td>
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FE428E&center=true&vCenter=true&width=495&height=248&lines=Hi,+I'm+Fitra;Data+Science+Student;Data,+Code,+and+Curiosity;Linux+Enthusiast&v=1714890000" width="495px"/>
-      </td>
+      <td align="center">
+
+<h2>Tech Stack & Interests</h2>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,r,javascript,flask,pytorch,vscode,linux,kali,pandas,jupyter&perline=5" width="500"/>
+
+<br>
+
+<p>
+   Data Science & Analytics <br>
+   Linux Enthusiast <br>
+   AI & Machine Learning
+</p>
+
+</td>
     </tr>
   </table>
   <br/>

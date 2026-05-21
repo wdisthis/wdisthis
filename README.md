@@ -20,14 +20,15 @@
 
 <h2>Tech Stack & Interests</h2>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=python,r,javascript,flask,pytorch,vscode,linux,kali,pandas,jupyter&perline=9"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,r,javascript,kotlin,androidstudio,flask,pytorch,vscode,linux,kali,pandas,jupyter,git,github,mysql&perline=9"/>
 
 <br>
 
 <p>
    Data Science & Analytics <br>
    Linux Enthusiast <br>
-   AI & Machine Learning
+   AI & Machine Learning <br>
+   SysAdmin
 </p>
 
 </td>

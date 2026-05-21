@@ -6,7 +6,7 @@
        <img src="https://github-readme-stats-one-bice.vercel.app/api?username=wdisthis&show_icons=true&theme=radical&rank_icon=github&border_radius=10&count_private=true&include_all_commits=true&v=1778331219" height="195px"/>
       </td>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=wdisthis&theme=radical&cache_seconds=1800&v=1778331219" height="195px"/>
+        <img src="https://streak-stats.demolab.com?user=wdisthis&theme=radical&cache_seconds=1800&v=1778331219" height="195px"/>
       </td>
     </tr>
   </table>

@@ -38,7 +38,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=wdisthis&bg_color=1a1b27&color=81ffea&line=fe428e&point=81ffea&area=true&hide_border=true&v=20260529" width="100%"/> 
 </div> 
 <br><br> 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wdisthis&theme=nord_dark&utc_offset=0" width="1000px"/>
 <p align="center"> 
   <picture> 
      <img src="/img/1.png"> 

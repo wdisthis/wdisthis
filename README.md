@@ -3,10 +3,10 @@
   <table> 
     <tr> 
       <td> 
-       <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=wdisthis&layout=compact&theme=radical&border_radius=10&langs_count=8&cache_seconds=60&v=20260529" width="1000px"/> 
+       <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=wdisthis&layout=compact&theme=radical&border_radius=10&langs_count=8&v=20260529" width="1000px"/> 
       </td> 
       <td> 
-        <img src="https://streak-stats.demolab.com?user=wdisthis&theme=radical&cache_seconds=1800&v=20260528" width="1600px"/> 
+        <img src="https://streak-stats.demolab.com?user=wdisthis&theme=radical&v=1212121121" width="1600">
       </td> 
     </tr> 
   </table> 
